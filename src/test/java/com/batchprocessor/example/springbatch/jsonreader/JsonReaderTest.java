@@ -1,4 +1,4 @@
-package com.itservicesdepot.example.springbatch.jsonreader;
+package com.batchprocessor.example.springbatch.jsonreader;
 
 import java.util.Date;
 

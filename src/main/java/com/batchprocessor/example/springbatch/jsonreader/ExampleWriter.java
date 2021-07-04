@@ -1,12 +1,11 @@
-package com.itservicesdepot.example.springbatch.jsonreader;
+package com.batchprocessor.example.springbatch.jsonreader;
 
 import java.util.List;
 
+import com.batchprocessor.example.springbatch.jsonreader.model.BatchJsonEntry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.batch.item.ItemWriter;
-
-import com.itservicesdepot.example.springbatch.jsonreader.model.BatchJsonEntry;
 
 public class ExampleWriter implements ItemWriter<BatchJsonEntry>{
 	private static Logger logger = LoggerFactory.getLogger(ExampleWriter.class);

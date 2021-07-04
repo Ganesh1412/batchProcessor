@@ -23,12 +23,12 @@
 	<bean id="syncTaskExecutor" class="org.springframework.core.task.SyncTaskExecutor" />
 	<bean id="taskExecutor" class="org.springframework.core.task.SimpleAsyncTaskExecutor" />
 	
-	<bean id="exampleJsonReader" class="com.itservicesdepot.example.springbatch.jsonreader.reader.JsonFileListItemReader" scope="step">
+	<bean id="exampleJsonReader" class="com.batchprocessor.example.springbatch.jsonreader.reader.JsonFileListItemReader" scope="step">
 		<property name="resource" value="classpath:sample.json" />
-		<property name="classToBound" value="com.itservicesdepot.example.springbatch.jsonreader.model.BatchJsonEntry" />
+		<property name="classToBound" value="com.batchprocessor.example.springbatch.jsonreader.model.BatchJsonEntry" />
 	</bean>
 	
-	<bean id="exampleProcessor" class="com.itservicesdepot.example.springbatch.jsonreader.ExampleProcessor" scope="step"/>
-	<bean id="exampleWriter" class="com.itservicesdepot.example.springbatch.jsonreader.ExampleWriter" scope="step"/>
+	<bean id="exampleProcessor" class="com.batchprocessor.example.springbatch.jsonreader.ExampleProcessor" scope="step"/>
+	<bean id="exampleWriter" class="com.batchprocessor.example.springbatch.jsonreader.ExampleWriter" scope="step"/>
 		
 </beans>

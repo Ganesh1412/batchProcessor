@@ -1,4 +1,4 @@
-package com.itservicesdepot.example.springbatch.jsonreader.model;
+package com.batchprocessor.example.springbatch.jsonreader.model;
 
 import java.sql.Timestamp;
 

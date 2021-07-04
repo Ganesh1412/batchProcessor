@@ -1,4 +1,4 @@
-package com.itservicesdepot.example.springbatch.jsonreader.reader;
+package com.batchprocessor.example.springbatch.jsonreader.reader;
 
 import java.util.List;
 
